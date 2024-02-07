@@ -17,5 +17,9 @@ namespace TeamsDAL
         public int Defeats { get; set; }
 
         public int Draws { get; set; }
+
+        public int GoalsScored { get; set; }
+
+        public int GoalsConceded { get; set; }
     }
 }
